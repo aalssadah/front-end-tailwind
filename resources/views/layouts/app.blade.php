@@ -15,17 +15,10 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
-<body>
+<body class=" bg-gray-100">   
+    <div class="min-h-screen ">
+        {{-- @include('layouts.navigation') --}}
 
-   
-    <div class="min-h-screen bg-gray-100">
-        @include('layouts.navigation')
-
-        @isset($header)
-        <div>
-            {{$header}}
-        </div>
-        @endisset
         <!-- Page Content -->
         <main>
             {{ $slot }}

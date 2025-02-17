@@ -17,9 +17,15 @@
 </head>
 <body>
 
+   
     <div class="min-h-screen bg-gray-100">
         @include('layouts.navigation')
 
+        @isset($header)
+        <div>
+            {{$header}}
+        </div>
+        @endisset
         <!-- Page Content -->
         <main>
             {{ $slot }}

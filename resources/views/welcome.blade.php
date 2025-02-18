@@ -2,7 +2,7 @@
     
     <div class="flex bg-gray-100">
         
-    <div class=" py-12 px-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2">
+    <div class=" py-12 px-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         
         <img src="/images/logo.png "  alt="image" 
         class=" h-24"/>
@@ -12,7 +12,7 @@
 
         <h1 class=" text-2xl sm:text-4xl font-medium text-gray-700 leading-tight mt-4 sm:mt-8">
             You can work from anywhere. 
-            <span class=" text-green-700 font-bold">Take advantage of it.</span>
+        <br class=" hidden lg:block"><span class=" text-green-700 font-bold">Take advantage of it.</span>
         </h1>
 
         <p class=" text-gray-600 mt-2 sm:text-xl sm:mt-4">

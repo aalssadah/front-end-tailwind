@@ -3,7 +3,8 @@
     <div class="flex bg-gray-100">
         
     <div class=" py-12 px-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
-        
+        <div class=" xl:max-w-lg xl:ml-auto">
+ 
         <img src="/images/logo.png "  alt="image" 
         class=" h-24"/>
 
@@ -26,6 +27,7 @@
             </a>
         </div>
     </div>
+</div>
 
     <div class="hidden lg:block lg:w-1/2 lg:relative">
         <img src="/images/bg.jpg" alt="background" class=" absolute inset-0 w-full h-full object-cover object-center"/>

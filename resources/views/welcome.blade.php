@@ -11,9 +11,9 @@
         <img src="/images/bg.jpg" alt="background"
         class=" mt-6 rounded-xl shadow-xl  sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"/>
 
-        <h1 class=" text-2xl sm:text-4xl font-medium text-gray-700 leading-tight mt-4 sm:mt-8">
+        <h1 class=" text-2xl sm:text-4xl font-medium text-gray-700 leading-tight mt-4 sm:mt-8 xl:text-4xl">
             You can work from anywhere. 
-        <br class=" hidden lg:block"><span class=" text-green-700 font-bold">Take advantage of it.</span>
+        <br class=" hidden lg:inline"><span class=" text-green-700 font-bold">Take advantage of it.</span>
         </h1>
 
         <p class=" text-gray-600 mt-2 sm:text-xl sm:mt-4">

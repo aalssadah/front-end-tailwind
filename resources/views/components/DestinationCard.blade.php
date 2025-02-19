@@ -1,4 +1,3 @@
-
         <div class=" rounded-lg shadow-lg bg-white border ">
             <img src="/images/card.jpg" class=" rounded-t-lg object-cover object-center">
             <div class="p-5">

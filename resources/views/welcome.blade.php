@@ -48,7 +48,7 @@
 
 <section class="wrapper">
     
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
 
 @foreach (range(1, 3) as $i)
 

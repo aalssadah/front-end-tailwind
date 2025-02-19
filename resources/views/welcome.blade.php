@@ -46,4 +46,5 @@
     </div>
 </div>
 
+<x-destinationCard ></x-destinationCard>
 </x-app-layout>

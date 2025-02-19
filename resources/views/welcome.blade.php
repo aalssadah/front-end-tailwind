@@ -1,6 +1,6 @@
 <x-app-layout>
     
-    <div class="flex bg-gray-100">
+    <div class="flex bg-gray-300">
         
     <div class=" py-12 px-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class=" xl:max-w-lg xl:ml-auto">
@@ -37,14 +37,26 @@
     </div>
 </div>
 
-<div class="wrapper">
+<section class="wrapper">
     
     <div class="grid grid-cols-1 md:grid-cols-3 gap-1  ">
         <div class="bg-white shadow-lg rounded-lg p-6 ">Card 1</div>
         <div class="bg-white shadow-lg rounded-lg p-6 ">Card 2</div>
         <div class="bg-white shadow-lg rounded-lg p-6 ">Card 3</div>
     </div>
-</div>
+</section>
+
+<section class="wrapper">
+    
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+
+@foreach (range(1, 3) as $i)
 
 <x-destinationCard ></x-destinationCard>
+
+
+@endforeach
+</div>
+</section>
+
 </x-app-layout>

@@ -22,18 +22,28 @@
         </p>
 
         <div class="mt-4 ">
-            <a href="#" class="btn btn-green sm:text-base hover:bg-green-400 focus:outline-none active:bg-red-500 ">
+            <a href="#" class="btn btn-green sm:text-base  focus:outline-none active:bg-red-500 ">
             Book your escape    
             </a>
-            <a href="#" class="btn btn-gray sm:text-base hover:bg-gray-500 focus:outline-none ">
+            <a href="#" class="btn btn-gray sm:text-base  focus:outline-none ">
             Read More  
             </a>
         </div>
     </div>
-</div>
+  </div>
 
     <div class="hidden lg:block lg:w-1/2 lg:relative">
         <img src="/images/bg.jpg" alt="background" class=" absolute inset-0 w-full h-full object-cover object-center"/>
     </div>
 </div>
+
+<div class="wrapper">
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-1  ">
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Card 1</div>
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Card 2</div>
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Card 3</div>
+    </div>
+</div>
+
 </x-app-layout>

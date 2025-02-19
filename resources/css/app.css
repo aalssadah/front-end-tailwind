@@ -11,7 +11,20 @@
     
 }
 
+.btn-green:hover{
+    @apply bg-green-400
+}
+
 .btn-gray{
     @apply  bg-gray-700   rounded-xl shadow-xl 
+}
+
+.btn-gray:hover
+{
+    @apply hover:bg-gray-500
+}
+
+.wrapper{
+    @apply max-w-6xl mx-auto px-12 py-24
 }
 

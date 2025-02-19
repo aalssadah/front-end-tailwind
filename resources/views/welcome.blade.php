@@ -5,8 +5,9 @@
     <div class=" py-12 px-8 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class=" xl:max-w-lg xl:ml-auto">
  
+
         <img src="/images/logo.png "  alt="image" 
-        class=" h-24"/>
+         class=" h-24"/>
 
         <img src="/images/bg.jpg" alt="background"
         class=" mt-6 rounded-xl shadow-xl  sm:mt-8 sm:h-64 sm:w-full object-cover object-center lg:hidden"/>

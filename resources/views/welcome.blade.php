@@ -22,9 +22,11 @@
         </p>
 
         <div class="mt-4 ">
-            <a href="#" class=" bg-green-700 inline-block text-sm text-white px-5 py-3 rounded-lg shadow-lg uppercase tracking-wider font-semibold
-            sm:text-base">
+            <a href="#" class="btn btn-green sm:text-base hover:bg-green-400 focus:outline-none active:bg-red-500 ">
             Book your escape    
+            </a>
+            <a href="#" class="btn btn-gray sm:text-base hover:bg-gray-500 focus:outline-none ">
+            Read More  
             </a>
         </div>
     </div>

@@ -39,10 +39,11 @@
 
 <section class="wrapper">
     
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-1  ">
-        <div class="bg-white shadow-lg rounded-lg p-6 ">Card 1</div>
-        <div class="bg-white shadow-lg rounded-lg p-6 ">Card 2</div>
-        <div class="bg-white shadow-lg rounded-lg p-6 ">Card 3</div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-1  ">
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Country</div>
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Location</div>
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Position</div>
+        <div class="bg-white shadow-lg rounded-lg p-6 ">Rest</div>
     </div>
 </section>
 
@@ -53,7 +54,6 @@
 @foreach (range(1, 3) as $i)
 
 <x-destinationCard ></x-destinationCard>
-
 
 @endforeach
 </div>

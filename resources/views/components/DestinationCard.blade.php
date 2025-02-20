@@ -1,4 +1,4 @@
-        <div class=" rounded-lg shadow-lg bg-white border ">
+        <section class=" rounded-lg shadow-lg bg-white border  ">
             <img src="/images/card.jpg" class=" rounded-t-lg object-cover object-center">
             <div class="p-5">
             <h1 class=" font-bold text-2xl mt-2 ">Noteworthy technology acquisitions 2021</h1>
@@ -10,5 +10,6 @@
                     </svg>
             </a>
         </div>
-        </div>
+        </section>
+
         

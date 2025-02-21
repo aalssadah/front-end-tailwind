@@ -63,4 +63,10 @@
             <x-horizontal> </x-horizontal>
         @endforeach
     </section>
+
+
+    {{-- Application --}}
+
+    <x-app></x-app>
+
 </x-app-layout>

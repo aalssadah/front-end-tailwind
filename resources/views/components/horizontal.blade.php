@@ -1,11 +1,11 @@
 
     
         <div class="grid grid-cols-1 md:grid-cols-3 bg-white rounded-lg mt-6 relative">
-            <div class=" inline-flex md:hidden absolute top-0 left-0  bg-yellow-200 p-2 rounded-tl-lg">
+            <div class=" inline-flex md:hidden absolute top-0 left-0  bg-yellow-200 p-2 ">
                 <h1 class="text-sm text-gray-800"> Discount 30%</h1>
                 <svg class="w-3 mx-1  items-center justify-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
             </div>
-                <img src="/images/street.jpg" class=" h-full rounded-l-lg col-span-1  object-cover object-center">
+                <img src="/images/street.jpg" class=" h-full md:rounded-l-lg col-span-1  object-cover object-center">
 
                 <div class="col-span-2 p-6 flex flex-col ">
                     <div class=" hidden md:inline-flex absolute top-0 right-0 bg-yellow-200  p-2 rounded-tr-lg ">

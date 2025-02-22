@@ -1,6 +1,6 @@
 <section class="wrapper">
 
-    <div class="bg-[#E2F5F4] grid grid-cols-1 sm:grid-cols-3 rounded-2xl h-full relative">
+    <div class="bg-ala grid grid-cols-1 sm:grid-cols-3 rounded-2xl h-full relative">
 
     
 

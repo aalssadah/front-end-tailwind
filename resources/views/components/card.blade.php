@@ -1,7 +1,8 @@
-<section class="wrapper">
 
-    <div class="bg-white rounded-lg overflow-hidden text-gray-900">
-        <img src="/images/card.webp" alt="">
+
+    
+    <div class="bg-white rounded-lg overflow-hidden text-gray-900 ">
+        <img src="/images/card.webp" alt="" class=" w-full object-cover object-center ">
         <div class="p-6">
             <div class=" inline-flex items-baseline">
                 <span class=" text-xs uppercase bg-teal-200 text-teal-800 px-2 inline-block  rounded-full">new</span>
@@ -24,5 +25,5 @@
         </div>
 
     </div>
+    
 
-</section>

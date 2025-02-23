@@ -71,5 +71,12 @@
 
     {{-- Adam card  --}}
 
+    <section class="wrapper">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+    @for($d=0;$d<4;$d++)
     <x-card></x-card>
+    @endfor
+        </div>
+</section>
+
 </x-app-layout>

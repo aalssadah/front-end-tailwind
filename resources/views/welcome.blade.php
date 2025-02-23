@@ -69,4 +69,7 @@
 
     <x-app></x-app>
 
+    {{-- Adam card  --}}
+
+    <x-card></x-card>
 </x-app-layout>

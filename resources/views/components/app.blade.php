@@ -14,7 +14,7 @@
                 <p class=" text-l mt-4">We approach every project with the same passion, enthusiasm and attention
                     to detail that leads us to achieve your project goals with ease.</p>
             </div>
-            <div class="stores flex flex-wrap gap-3">
+            <div class="stores flex flex-wrap gap-3 items-center justify-center">
                 <img class=" w-40" src="/images/appStore.png">
                 <img class=" w-40" src="/images/playStore.png">
                 <img class=" w-40" src="/images/huawei.webp">

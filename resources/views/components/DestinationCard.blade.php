@@ -1,5 +1,5 @@
-        <section class=" rounded-lg shadow-lg bg-white border  ">
-            <img src="/images/card.jpg" class=" rounded-t-lg object-cover object-center">
+        <section class=" rounded-lg shadow-lg bg-white border overflow-hidden">
+            <img src="/images/card.jpg" class=" object-cover object-center">
             <div class="p-5">
             <h1 class=" font-bold text-2xl mt-2 ">Noteworthy technology acquisitions 2021</h1>
             <p class=" mb-3 font-normal opacity-20 mt-2">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>

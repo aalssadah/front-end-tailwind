@@ -3,11 +3,14 @@
     <div class="bg-white rounded-lg overflow-hidden text-gray-900">
         <img src="/images/card.webp" alt="">
         <div class="p-6">
-            <div class="text-xs font-semibold text-gray-600 uppercase tracking-wide"> 3 beds &bull; 2 baths</div>
-            <h4 class=" font-semibold text-xl leading-tight truncate">This is the card you asked for
-                This is the card you asked for
+            <div class=" inline-flex items-baseline">
+                <span class=" text-xs uppercase bg-teal-200 text-teal-800 px-2 inline-block  rounded-full">new</span>
+                <div class=" ml-2 text-xs font-semibold text-gray-600 uppercase tracking-wide"> 3 beds &bull; 2 baths</div>
+            </div>
+            <h4 class=" font-semibold text-xl leading-tight truncate">Modern home in center city
             </h4>
-            <div class="mt-1"> $1900
+            <div class="mt-1"> 
+                <span class=" font-semibold">$1900</span>
                 <span class=" text-gray-600 text-sm">/ wk </span>
             </div>
             <div class="flex mt-4">

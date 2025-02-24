@@ -1,10 +1,8 @@
 <section class="wrapper">
 
     <div class="bg-ala grid grid-cols-1 sm:grid-cols-3 rounded-2xl h-full relative">
-
-    
-
-        
+        {{-- flex by defalut it's flex-row and if you use justify-between it will make space hortiznal
+        but if u use flex-col and use justify-between, it will work vertical  --}}
         <div class="justify-between col-span-2 flex flex-col p-6 gap-6 max-w-xl ">
             <div class="text">
                 <div class="inline-flex justify-center items-center">

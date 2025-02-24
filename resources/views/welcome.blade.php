@@ -82,7 +82,11 @@
     {{-- diff card --}}
 
         <section class="wrapper">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                @for ($d = 0; $d < 2; $d++)
             <x-card-flow></x-card-flow>
+            @endfor
+        </div>
         </section>
 
 </x-app-layout>

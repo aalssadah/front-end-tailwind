@@ -15,7 +15,8 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             colors:{
-                'ala':'#E2F5F4'
+                'ala':'#E2F5F4',
+                'imageOpacity':'#16161699',
             }
         },
     },

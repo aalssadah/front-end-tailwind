@@ -18,6 +18,7 @@
 <body class=" bg-gray-100">   
     <div class="min-h-screen ">
         {{-- @include('layouts.navigation') --}}
+        @include('layouts.header')
 
         <!-- Page Content -->
         <main>

@@ -1,10 +1,10 @@
-<div class=" w-full bg-slate-50">
-<header class=" w-full h-12 flex justify-between  items-center px-6">
+<div class=" w-full bg-slate-50" x-data="{ isOpen: false }">
+ <header class=" w-full h-12 flex justify-between  items-center px-6">
     <div class="logo">
         <img src="/images/logo.png" alt="" class=" w-36">
     </div>
     <div class="">
-        <button type="button">
+        <button type="button" @click="isOpen = !isOpen">
 
             <svg xmlns="http://www.w3.org/2000/svg" class=" fill-current text-gray-400 hover:text-gray-700 w-6 h-6"
                 viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -15,7 +15,7 @@
     </div>
 </header>
 
-    <div class="px-3 pt-3 pb-4">
+    <div class="px-3 pt-3 pb-4" x-show="isOpen">
         <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">List Of Servives</a>
         <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">Programming</a>
         <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">Designing</a>
@@ -23,6 +23,4 @@
     </div>
     </div>
 
-    <script>
-        
-    </script>
+    

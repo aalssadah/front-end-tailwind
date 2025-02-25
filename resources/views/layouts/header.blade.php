@@ -1,4 +1,5 @@
-<div class=" w-full h-12 flex justify-between bg-slate-50 items-center px-6">
+<div class=" w-full bg-slate-50">
+<header class=" w-full h-12 flex justify-between  items-center px-6">
     <div class="logo">
         <img src="/images/logo.png" alt="" class=" w-36">
     </div>
@@ -12,4 +13,16 @@
             </svg>
         </button>
     </div>
-</div>
+</header>
+
+    <div class="px-3 pt-3 pb-4">
+        <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">List Of Servives</a>
+        <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">Programming</a>
+        <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">Designing</a>
+        <a href="#" class=" p-2  px-3 block hover:bg-gray-200 rounded">Marketing</a>
+    </div>
+    </div>
+
+    <script>
+        
+    </script>

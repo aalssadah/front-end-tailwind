@@ -80,7 +80,7 @@
     </section>
 
     {{-- dropdown button --}}
-    <x-dropdown-button></x-dropdown-button>
+    
     {{-- diff card --}}
 
         <section class="wrapper">

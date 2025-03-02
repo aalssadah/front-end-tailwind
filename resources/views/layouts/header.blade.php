@@ -43,6 +43,23 @@
             <a href="#" class=" p-2  px-3  hover:bg-gray-200 rounded">Programming</a>
             <a href="#" class=" p-2  px-3  hover:bg-gray-200 rounded">Designing</a>
             <a href="#" class=" p-2  px-3  hover:bg-gray-200 rounded">Marketing</a>
+            {{-- <div class="  p-2  px-3 relative "  x-data="{isOpen:false}"> --}}
+                {{-- z-index doesn't work with element defalut postion (static) so if you want it to work just make (relative) or sm else--}}
+                {{-- <button tabindex="-1" class=" relative z-10 h-8 w-8 rounded-full overflow-hidden focus:border-white border-2 border-gray-500 " @click="isOpen=!isOpen">
+                    <img src="/images/profile.webp" alt="profile" class="w-full">
+                </button>
+                <button class=" fixed inset-0 bg-gray-300 opacity-50" x-show="isOpen" @click="isOpen=false"></button>
+                <div class=" bg-white w-48 py-2 mt-2 shadow-xl rounded-lg absolute right-0" x-show="isOpen">
+                    <a href="#" class=" block px-4 py-2  text-gray-800 hover:bg-indigo-500 hover:text-white">Dashboard</a>
+                    <a href="#" class=" block px-4 py-2  text-gray-800 hover:bg-indigo-500 hover:text-white">Settings</a>
+                    <a href="#" class=" block px-4 py-2  text-gray-800 hover:bg-indigo-500 hover:text-white">Log out</a>
+                </div>
+
+            </div> --}}
+
+        </div>
+        
+        <div class="">
             <div class="  p-2  px-3 relative "  x-data="{isOpen:false}">
                 {{-- z-index doesn't work with element defalut postion (static) so if you want it to work just make (relative) or sm else--}}
                 <button tabindex="-1" class=" relative z-10 h-8 w-8 rounded-full overflow-hidden focus:border-white border-2 border-gray-500 " @click="isOpen=!isOpen">
@@ -56,7 +73,6 @@
                 </div>
 
             </div>
-
         </div>
 </div>
 </header>

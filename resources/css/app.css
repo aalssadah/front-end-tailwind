@@ -8,7 +8,7 @@
 }
 .btn-green{
     @apply  bg-green-700   rounded-lg shadow-lg  uppercase
-    
+
 }
 
 .btn-green:hover{
@@ -16,7 +16,7 @@
 }
 
 .btn-gray{
-    @apply  bg-gray-700   rounded-xl shadow-xl 
+    @apply  bg-gray-700   rounded-xl shadow-xl
 }
 
 .btn-gray:hover
@@ -26,5 +26,15 @@
 
 .wrapper{
     @apply max-w-6xl mx-auto px-12 py-24
+}
+
+/*.hero-btn*/
+/*{*/
+/*    background-color: transparent linear-gradient(91deg,#1cd2e2 0,#1cd2e26e) 0 0 no-repeat padding-box;*/
+/*}*/
+
+.bg-main
+{
+ background-color: rgb(13 36 73);
 }
 

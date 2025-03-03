@@ -79,8 +79,11 @@
     <section class="clients -mt-10 z-30 relative px-4">
         <div class=" max-w-4xl px-4 bg-white mx-auto rounded-3xl shadow-xl overflow-hidden">
             
+            <div class="flex gap-4 ">
+            @for ($i = 1; $i < 8; $i++)
             <img src="/images/clients.png" alt="" class=" w-24 h-24" >
-
+            @endfor
+        </div>
         </div>
     </section>
 

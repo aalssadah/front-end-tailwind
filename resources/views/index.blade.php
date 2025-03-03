@@ -8,7 +8,6 @@
             <div class=" md:max-w-5xl mx-auto items-center  pt-12 pb-32 px-4  h-full ">
 
                 <div class="">
-
                     <h1 class="text-2xl text-center text-white ">
                         حلولك الرقمية تبدأ من
                         <span class="text-teal-500">هنا</span>
@@ -75,6 +74,14 @@
             </div>
         </div>
 
+    </section>
+
+    <section class="clients -mt-10 z-30 relative px-4">
+        <div class=" max-w-4xl px-4 bg-white mx-auto rounded-3xl shadow-xl overflow-hidden">
+            
+            <img src="/images/clients.png" alt="" class=" w-24 h-24" >
+
+        </div>
     </section>
 
 

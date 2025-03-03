@@ -29,11 +29,11 @@
                 </div> --}}
 
                 <div class=" text-center mt-4">
-                    <div class="categories">
+                    <div class="categories flex  flex-wrap justify-center gap-3 ">
 
                         @for ($i = 1; $i < 6; $i++)
                             <div
-                                class=" bg-white bg-opacity-10 text-white px-4 py-3 rounded-full inline-flex items-center  gap-2">
+                                class=" bg-white bg-opacity-10 text-white px-4 py-3 rounded-full inline-flex gap-3 items-center">
                                 <a href="#" class=" "> برمجة </a>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                     viewBox="0 0 18 18" fill="none">
@@ -45,7 +45,7 @@
                             </div>
                         @endfor
                     </div>
-                    <div class="categories mt-3">
+                    <div class="categories mt-3 flex  flex-wrap justify-center gap-3">
 
                         @for ($i = 1; $i < 6; $i++)
                             <div

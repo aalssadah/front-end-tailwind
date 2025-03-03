@@ -21,7 +21,8 @@
                     </p>
                 </div>
 
-                {{-- <div class=" text-white  ">
+               
+                {{-- <div class=" text-white ">
                     <a href="#" class="px-4 py-3  rounded-full bg-[#1CD2E2FF] " type="submit">اطلب خدمة</a>
                     <a href="#"
                         class="px-4 py-3 rounded-full bg-transparent  border border-teal-300 hover:bg-[#1CD2E2FF]"

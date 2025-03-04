@@ -1,8 +1,12 @@
+@import url("https://www.fontstatic.com/f=bahij");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: "bahij";
 
+}
 .btn{
     @apply inline-block text-white text-sm px-5 py-3  tracking-wider font-semibold
 }

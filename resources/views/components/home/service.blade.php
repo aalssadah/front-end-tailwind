@@ -21,7 +21,7 @@
 
     <section class=" max-w-7xl mx-auto px-12 py-24">
 
-    <div class="service-card grid grid-cols-2 gap-4 justify-center">
+    <div class="service-card grid grid-cols-2 gap-4 justify-center ">
 
         @for($i=0;$i<5;$i++)
         <div class="flex  gap-4 px-8 py-12 border  rounded-2xl shadow-lg bg-[#FAFAFA] hover:bg-[#00f5f538] duration-700 transition-all">

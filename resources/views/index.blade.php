@@ -1,6 +1,6 @@
 <x-app-layout>
 
-    <section class="w-full h-[588px] relative  overflow-hidden bg-main">
+    <section class="w-full md:h-[588px] relative  overflow-hidden bg-main">
         <div class="video  w-full h-full ">
             <video class=" absolute z-0 min-w-full min-h-full opacity-25 object-cover " autoplay loop muted playsinline>
                 <source src="/hero-bg.mp4" class="w-full h-full" type="video/mp4">
@@ -80,7 +80,7 @@
         <div class=" max-w-4xl px-4 bg-white mx-auto rounded-3xl shadow-xl overflow-hidden">
             
             <div class="flex gap-4 ">
-            @for ($i = 1; $i < 8; $i++)
+            @for ($i = 1; $i < 9; $i++)
             <img src="/images/clients.png" alt="" class=" w-24 h-24" >
             @endfor
         </div>

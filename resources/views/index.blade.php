@@ -1,5 +1,7 @@
 <x-app-layout>
 
-  <x-hero></x-hero>
+  <x-home.hero></x-home.hero>
+
+  <x-home.service></x-home.service>
 
 </x-app-layout>

@@ -20,13 +20,14 @@
     </div>
 
     {{-- web card --}}
-    <section class=" max-w-7xl mx-auto px-12 py-24 hidden md:block">
+    <section class=" max-w-7xl mx-auto px-2 md:px-8 lg:px-12 py-24 ">
 
         <div class="service-card grid md:grid-cols-2 grid-cols-1 gap-4 justify-center ">
 
             @for ($i = 0; $i < 5; $i++)
                 <div class="flex  gap-4 px-8 py-12 border  rounded-2xl shadow-lg bg-[#FAFAFA] hover:bg-[#00f5f517] duration-700 transition-all">
-                    <div class="flex flex-col justify-between gap-6">
+                    
+                    <div class="flex flex-col justify-between gap-6 w-3/4">
 
                         <div class="">
                             <h1 class="text-xl font-semibold">
@@ -37,8 +38,7 @@
                         <div class="">
 
                             <p class="text-l font-medium opacity-60 mt-4">
-                                نقدم خدمات برمجة وتطوير المواقع الإلكترونية بتصاميم مميزة وتجربة مستخدم متطورة، مع ضمان
-                                توافقه
+                                نقدم خدمات برمجة وتطوير المواقع الإلكترونية بتصاميم مميزة وتجربة مستخدم متطورة
                             </p>
                         </div>
 
@@ -52,8 +52,8 @@
                         </div>
                     </div>
 
-                    <div class=" w-full h-full">
-                        <img src="/images/service.png">
+                    <div class=" w-1/3">
+                        <img src="/images/service.png" class=" h-[150px]">
                     </div>
 
                 </div>

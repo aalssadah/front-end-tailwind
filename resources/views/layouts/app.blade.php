@@ -15,7 +15,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
-<body class=" bg-gray-100">   
+<body class=" ">   
     <div class="min-h-screen ">
         {{-- @include('layouts.navigation') --}}
         @include('layouts.header')

@@ -24,7 +24,7 @@
 
         <div class="service-card grid md:grid-cols-2 gap-4">
             @php
-                $totalItems = 9; // Change this dynamically based on your actual data
+                $totalItems = 5; // Set dynamically from your database
             @endphp
 
             @for ($i = 0; $i < $totalItems; $i++)
@@ -60,6 +60,8 @@
         </div>
 
     </section>
+
+
 
 
 

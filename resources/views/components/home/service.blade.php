@@ -1,4 +1,4 @@
-<section class="  h-72 py-16 ">
+<section class="   py-16 ">
 
     <div class="flex flex-col items-center gap-5">
 
@@ -28,7 +28,8 @@
             @endphp
 
             @for ($i = 0; $i < $totalItems; $i++)
-                <div class="flex gap-4 px-8 py-12 border rounded-2xl shadow-lg bg-[#FAFAFA] hover:bg-[#00f5f517] duration-700 transition-all
+                <div
+                    class="flex gap-4 px-8 py-12 border rounded-2xl shadow-lg bg-[#FAFAFA] hover:bg-[#00f5f517] duration-700 transition-all
                         {{ $i == $totalItems - 1 && $totalItems % 2 != 0 ? 'md:col-span-2 mx-auto' : '' }}">
 
                     <div class="flex flex-col justify-between gap-6 w-3/4">
@@ -58,15 +59,6 @@
                 </div>
             @endfor
         </div>
-
-    </section>
-
-
-
-
-
-    {{-- Mobile card --}}
-    <section class="max-w-7xl mx-auto py-24 block md:hidden">
 
     </section>
 

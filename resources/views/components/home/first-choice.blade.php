@@ -16,7 +16,7 @@
                 <img src="/images/dot.svg" class=" " alt="">
             </div>
 
-            <div class="">
+            <div class="px-8 md:px-0">
                 <p class=" font-medium text-l text-white">
                     نحن نقدم حلولاً إلكترونية مبتكرة تتكامل بين التسويق الفعّال وبرمجة المواقع والتطبيقات بأعلى جودة
                     واهتمام بالتفاصيل
@@ -26,7 +26,7 @@
         </div>
 
         <div class="boxes max-w-6xl mx-auto px-8">
-            <div class="flex  gap-3">
+            <div class="flex md:flex-row flex-col md:gap-3 gap-10">
                 @for ($i = 0; $i < 3; $i++)
                     <div class=" border  border-white/30  bg-white/10 rounded-xl  pb-8">
                         <div class="flex flex-col gap-4 items-center">

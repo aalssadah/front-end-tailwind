@@ -1,9 +1,9 @@
-<section class="bg-cover bg-center pt-16  relative"
+<section class="bg-cover bg-center py-24  relative"
     style="background-image: url('{{ asset('images/firstchoice.png') }}');">
 
     {{-- <div class=" max-w-6xl mx-auto "> --}}
     <div class=" absolute inset-0 backdrop-blur-sm" style="background-color: rgba(13, 36, 73, 0.6);"></div>
-     <div class=" flex flex-col gap-8 text-center" style="    transform: translateZ(0px);opacity: 1">
+    <div class=" flex flex-col gap-16 text-center" style="    transform: translateZ(0px);opacity: 1">
 
         <div class=" texts flex flex-col gap-2">
             <div class="font-semibold text-xl ">
@@ -27,51 +27,22 @@
 
         <div class="boxes max-w-6xl mx-auto px-8">
             <div class="flex  gap-3">
-                <div class=" border border-opacity-5 border-white  bg-white/10 rounded-lg ">
-                    <div class="flex flex-col gap-3 items-center">
-                        <div class="">
-                            <img src="/images/star.svg" alt="">
-                        </div>
-                        <div class="">
-                            <h1 class="text-white text-xl">سرعة التنفيذ</h1>
-                        </div>
-                        <div class=" text-white text-base">
-                            جدول زمني سريع للمشاريع , بخطة تنفيذية وتنظيم دقيق للحصول على المخرجات بالجودة والسرعة
-                            المنشود
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" border border-opacity-5 border-white  rounded-lg bg-white/10">
-                    <div class="flex flex-col gap-3 items-center">
-                        <div class="">
-                            <img src="/images/star.svg" alt="">
-                        </div>
-                        <div class="">
-                            <h1 class="text-white text-xl">سرعة التنفيذ</h1>
-                        </div>
-                        <div class=" text-white text-base">
-                            جدول زمني سريع للمشاريع , بخطة تنفيذية وتنظيم دقيق للحصول على المخرجات بالجودة والسرعة
-                            المنشود
+                @for ($i = 0; $i < 3; $i++)
+                    <div class=" border  border-white/30  bg-white/10 rounded-xl  pb-8">
+                        <div class="flex flex-col gap-4 items-center">
+                            <div class=" border-2 border-white/60 p-3 rounded-md rotate-45 -mt-6 bg-[#06c4bf1a]">
+                                <img src="/images/star.svg" alt="" class="-rotate-45">
+                            </div>
+                            <div class="">
+                                <h1 class="text-white text-xl">سرعة التنفيذ</h1>
+                            </div>
+                            <div class=" text-white text-base">
+                                جدول زمني سريع للمشاريع , بخطة تنفيذية وتنظيم دقيق للحصول على المخرجات بالجودة والسرعة
+                                المنشود
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class=" border  border-opacity-5 border-white rounded-lg bg-white/10">
-                    <div class="flex flex-col gap-3 items-center">
-                        <div class="">
-                            <img src="/images/star.svg" alt="">
-                        </div>
-                        <div class="">
-                            <h1 class="text-white text-xl">سرعة التنفيذ</h1>
-                        </div>
-                        <div class=" text-white text-base">
-                            جدول زمني سريع للمشاريع , بخطة تنفيذية وتنظيم دقيق للحصول على المخرجات بالجودة والسرعة
-                            المنشود
-                        </div>
-                    </div>
-                </div>
-
+                @endfor
 
 
             </div>

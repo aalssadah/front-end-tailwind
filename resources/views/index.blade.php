@@ -8,7 +8,7 @@
 
     <x-app></x-app>
 
-    <section class="stats bg-teal-100">
+    <section class="stats bg-teal-100/55">
 
         <div class=" max-w-4xl mx-auto flex flex-col md:flex-row px-8  py-24 justify-between ">
 

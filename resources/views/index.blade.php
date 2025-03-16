@@ -31,4 +31,6 @@
 
     </section>
 
+
+    <x-home.contact-us></x-home.contact-us>
 </x-app-layout>

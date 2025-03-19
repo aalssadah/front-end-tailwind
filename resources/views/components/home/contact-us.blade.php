@@ -1,5 +1,5 @@
 <section class=" bg-[#E2F5F4] mt-16 ">
-    <div class=" max-w-full  md:max-w-6xl mx-auto  py-12 px-0 md:px-20  grid grid-cols-1 md:grid-cols-4">
+    <div class=" max-w-full  md:max-w-7xl mx-auto  py-12 px-0 md:px-20  grid grid-cols-1 md:grid-cols-4">
 
         <div class=" form col-span-3  bg-white md:min-h-[400px] py-8  mx-2 rounded-2xl shadow-lg flex flex-col justify-between gap-4">
 
@@ -20,12 +20,14 @@
             </div>
 
             <div class="px-4">
-                <a class=" bg-[#00c7c2] text-white rounded-full p-2">ارسل الان </a>
+                <a class=" bg-[#00c7c2] text-white rounded-full py-2 px-3 ">ارسل الان </a>
             </div>
         </div>
 
-        <div class=" address col-span-1 bg-green-300 py-12 mx-2 rounded-lg shadow-lg ">
-
+        <div class=" address col-span-1  flex flex-col px-2 md:px-0  gap-2">
+            <div class="h-[161px] bg-white rounded-2xl w-full"></div>
+            <div class="h-[161px] bg-white rounded-2xl w-full"></div>
+            <div class="h-[161px] bg-white rounded-2xl w-full"></div>
         </div>
 
     </div>

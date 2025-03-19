@@ -15,7 +15,7 @@
                 <div class=" mt-2">
 
                     <input class="rounded-sm bg-[#FAFAFA] w-full p-2" placeholder="العنوان"></textarea>
-                    <textarea class="rounded-sm bg-[#FAFAFA] w-full p-2 mt-2" placeholder="الرسالة"></textarea>
+                    <textarea class="rounded-sm bg-[#FAFAFA] w-full p-2 mt-2" rows="7" placeholder="الرسالة"></textarea>
                 </div>
             </div>
 
